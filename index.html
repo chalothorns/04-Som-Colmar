@@ -29,10 +29,57 @@
 	</head>
 
 	<body class="w-screen min-h-dvh">
-		<h1
-			class="h-auto p-4 text-xl font-semibold text-center bg-mint-200 text-neutral-900 hover:scale-105 md:text-3xl md:bg-sky-600 md:text-sky-50 md:text-shadow-sm"
-		>
-			Welcome to <br class="md:hidden" />Colmar Academy
-		</h1>
+		<header>
+			<nav class="flex justify-center md:justify-between items-center   shadow-md bg-white">
+				<div class="hidden md:flex items-center md: p-4">
+					<img src="./images/ic-logo.svg" alt="Logo" class="w-10 " >
+					<span class="font-bold text-xl">COLMAR
+						<span class="text-gray-500 font-normal m text-xl"> ACADEMY</span></span>
+				</div>
+			       
+			    <div class="flex gap-8 md:hidden">
+					<img src="./images/ic-logo.svg" alt="Logo">
+					<img src="./images/ic-on-campus.svg" alt="On campus">
+					<img src="./images/ic-online.svg" alt="Online">
+					<img src="./images/ic-login.svg" alt="Login">
+
+				</div>
+				<div class="hidden md:flex justify-end gap-4 mr-10">
+					<a href="#" class="hover:text-gray-500">On campus</a>
+					<a href="#" class="hover:text-gray-500">Online</a>
+					<a href="#" class="hover:text-gray-500">For companies</a>
+					<a href="#" class="hover:text-gray-500">Sign in</a>
+
+				</div>
+			</nav>
+			</header>
+
+		<main>
+          <section class="flex flex-col md:flex-row p-6 bg-gray-200 md:justify-between items-center">
+			
+			<div class=" md:w-1/2 md:p-12">
+				<img src="./images/banner.jpg" alt="banner" class="w-full h-auto object-cover md:w-full">
+			</div>
+			<div class="mt-8 mb-8 md:mr-35">
+				<h1 class="text-gray-800 font-bold text-4xl md:text-6xl">Learn something 
+				<br>new everyday</h1>
+				<p class="text-gray-700 text-xl mb-8 mt-5">Lorem ipsum dolor sit amet,
+				consectetur adipiscing elit.</p>
+				<button class="bg-gray-500 text-lg text-white hover:text-gray-300 w-full p-3 md:w-130 md:p-4">Start here</button>
+				</div>
+		  </section>
+
+		<section class="flex flex-col md:flex-row p-6 bg-gray-100 md:justify-between items-center">
+			<div class="mt-10">
+				<img src="./images/information-main.jpg" alt="Man reading" class="w-2/3">
+                <h1 class="font-bold text-xl">It doesn't hurt to keep practicing</h1>
+			</div>
+			<div></div>
+
+		</section>
+		</main>
+		<footer>
+
+		</footer>
 	</body>
 </html>
